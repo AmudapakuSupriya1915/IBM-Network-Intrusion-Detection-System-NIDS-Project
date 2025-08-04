@@ -1,0 +1,17 @@
+# Create a short instruction file for configuring the NIDS system, similar to the fault detection setup
+
+instructions_text = """\
+# Instructions for Configuring Network Intrusion Detection System (NIDS)
+
+1. Upload the NSL-KDD dataset (Train/Test) to your IBM Cloud project.
+2. Open IBM watsonx.ai Studio and create a new project.
+3. Launch a Jupyter notebook or AutoAI experiment to preprocess and analyze the dataset.
+4. Select a classification model (e.g., Random Forest) and tune hyperparameters.
+5. Evaluate model performance using a confusion matrix, accuracy, and feature importance.
+6. Deploy the model using IBM Cloud Lite and expose it through a REST API for real-time intrusion detection.
+"""
+
+instructions_file_path = "/mnt/data/NIDS_Instructions.md"
+Path(instructions_file_path).write_text(instructions_text)
+
+instructions_file_path

@@ -1,0 +1,10 @@
+ Network Intrusion Detection System (NIDS) – IBM watsonx.ai
+This project presents a robust Machine Learning-based Network Intrusion Detection System (NIDS) designed to detect, classify, and monitor various cyberattacks in real-time network traffic. Built on the KDD Cup 99 / NSL-KDD dataset, it categorizes traffic into multiple types such as DoS, Probe, R2L, U2R, and Normal, enabling proactive threat detection.
+
+Using Random Forest classifiers, the model handles both numerical and categorical data via preprocessing steps like label encoding and feature scaling. The system is evaluated with performance metrics including accuracy, precision, recall, and a confusion matrix. Feature importance graphs further help identify the most influential attributes in threat prediction.
+
+The project runs within IBM watsonx.ai Studio using AutoAI pipelines and manual ML workflows in Jupyter notebooks. Once trained, the model is deployed on IBM Cloud Lite with a REST API endpoint for integration into larger systems.
+
+Ideal for cloud-native environments, the solution supports secure deployment, scalable performance, and easy integration with monitoring tools. It also includes scope for real-time packet capture, encrypted traffic analysis, and deep learning upgrades in future iterations.
+
+This work is a part of the IBM SkillsBuild internship, bridging academic concepts with enterprise-grade deployment. It’s a foundational step for anyone pursuing a career in cybersecurity, data science, or AI operations.
